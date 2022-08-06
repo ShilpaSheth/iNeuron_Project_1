@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* background-color: aqua; */
+    margin: 70px 100px 0;
+}
+/* NAVBAR SECTION */
+.container section[aria-label="navbar"]{
+    /* background-color: deeppink; */
+    margin-bottom: 72px;
+   
+}
+
+.container section[aria-label="navbar"] nav.navbar-container{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* NAVBAR -> NAV-CONTAINER */
+/* DIV CHILD 1 */
+/* .container section[aria-label="navbar"] nav.navbar-container div:nth-child(1){
+    background-color: rgb(120, 120, 202);
+    
+    
+} */
+.container section[aria-label="navbar"] nav.navbar-container div:nth-child(1) img{
+    height: 45px;
+    width: 130px;
+}
+
+
+/* NAVBAR -> NAV-CONTAINER */
+/* DIV CHILD 2 */
+.container section[aria-label="navbar"] nav.navbar-container div:nth-child(2){
+    /* background-color: rgb(135, 214, 56); */
+    width: 600px;
+}
+    
+.container section[aria-label="navbar"] nav.navbar-container div:nth-child(2) ul.list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    
+}
+.container section[aria-label="navbar"] nav.navbar-container div:nth-child(2) ul.list li.list-item{
+    font-size: 20px;
+    font-family: "Orbitron";
+    font-weight: 600;
+}
+.container section[aria-label="navbar"] nav.navbar-container div:nth-child(2) ul.list li.list-item::marker{
+    color: transparent;
+}
+.container section[aria-label="navbar"] nav.navbar-container div:nth-child(2) ul.list li.list-item:hover{
+    font-size: 23px;
+    font-family: "Orbitron";
+    font-weight: 700;
+    text-decoration: underline 2px;
+    text-underline-offset: 10px;
+
+}
+.container section[aria-label="navbar"] nav.navbar-container div:nth-child(2) ul.list li.list-item::marker:hover{
+    color: transparent;
+}
+
+
+/* NAVBAR -> NAV-CONTAINER */
+/* DIV CHILD 3 */
+.container section[aria-label="navbar"] nav.navbar-container div.button-group{
+    /* background-color: darkorange; */
+    display: flex;
+    justify-content: end;
+    width: 200px;
+    
+}
+.container section[aria-label="navbar"] nav.navbar-container div.button-group div.search-icon{
+    margin-right: 15px;
+    margin-top: 7px;
+}
+.container section[aria-label="navbar"] nav.navbar-container div.button-group div.search-icon svg{
+    height: 28.5px;
+}
+
+
+/* NAVBAR -> NAV-CONTAINER */
+/* DIV CHILD 4 */
+.container section[aria-label="navbar"] nav.navbar-container div:last-child{
+    /* background-color: rgb(223, 78, 25); */
+    margin-top: 2.5px;
+    
+}
+.container section[aria-label="navbar"] nav.navbar-container div:last-child button.nav-button{
+    height: 40px ;
+    width: 160px;
+    border: 3px solid rgb(32, 32, 32);
+    border-radius: 10px;
+    font-size: 22px ;
+}
+
+
+
+
+
+/* BANNER SECTION */
+.container section[aria-label="banner"]{
+ background-color: aquamarine;
+}
+.container section[aria-label="banner"] div.hero-container{
+    display: flex;
+    position: relative;
+}
+
+/* square */
+.container section[aria-label="banner"] div.hero-container span.square{
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    
+}
+.container section[aria-label="banner"] div.hero-container span.square img{
+    height: 330px;
+    width: 340px;
+}
+
+/* star */
+.container section[aria-label="banner"] div.hero-container span.star#big-star{
+    position: absolute;
+    right: 0;
+}
+.container section[aria-label="banner"] div.hero-container span.star#big-star img{
+    height: 60px;
+    width: 60px;
+}
+.container section[aria-label="banner"] div.hero-container span.star#small-star{
+    position: absolute;
+    right: 45.5pc;
+    top: 31.5pc;
+}
+.container section[aria-label="banner"] div.hero-container span.star#small-star img{
+    height: 45px;
+    width: 45px;
+}
+
+
+/* globe */
+.container section[aria-label="banner"] div.hero-container span.globe{
+    position: absolute;
+    right: 40pc;
+    bottom: -1.5pc;
+}
+.container section[aria-label="banner"] div.hero-container span.globe img{
+    height: 60px;
+    width: 60px;
+}
+
+/* PERSON IMAGE DIV */
+.container section[aria-label="banner"] div.hero-container div:nth-child(5){
+    position: absolute;
+    left: 50px;
+} 
+.container section[aria-label="banner"] div.hero-container div:nth-child(5) img{
+    height: 525px;
+    width: 420px;
+    
+} 
+
+/* RIGHT */
+.container section[aria-label="banner"] div.hero-container div.hero-container-right{
+ /* background-color: crimson; */
+ position: absolute;
+ height: 500px;
+ width: 800px; 
+ right: 0 ;
+ top: 100px;
+}
+.container section[aria-label="banner"] div.hero-container div.hero-container-right h1.hero-heading{
+    height: 80px;
+    font-size: 59px;
+    font-family: "Orbitron";
+}
+
+.container section[aria-label="banner"] div.hero-container div.hero-container-right p.hero-description{
+    /* background-color: aquamarine; */
+    margin-top: 55px;
+    height: 150px;
+    width: 73%;
+    text-align: center;
+    font-family: "Poppins";
+    margin-left: 90px;
+    font-size: 14px;
+    padding-left: 0px;
+}
+
+.container section[aria-label="banner"] div.hero-container div.hero-container-right div:nth-child(3){
+    /* background-color: rgb(186, 149, 222); */
+    height: 100px;
+    width: 400px;
+    margin-left: 200px;
+}
+.container section[aria-label="banner"] div.hero-container div.hero-container-right div:nth-child(3) button.button-email{
+    width: 225px;
+    height: 35px;
+    border: 3px solid rgb(76, 76, 76);
+    border-radius: 10px;
+    font-family: "Orbitron";
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(76, 76, 76);
+    opacity: 0.9;
+}
+.container section[aria-label="banner"] div.hero-container div.hero-container-right div:nth-child(3) button.button-join{
+    margin-left: 8px;
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    font-family: "Orbitron";
+    font-size: 19px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+
+
+body > div.container > section:nth-child(2) > div > div.hero-container-right > div:nth-child(4){
+    height: 100px;
+    width: 350px;
+    /* background-color: antiquewhite; */
+    margin-left: 200px;
+    margin-top: 40px;
+}
+body > div.container > section:nth-child(2) > div > div.hero-container-right > div:nth-child(4) > h4{
+    width: 180px;
+    height: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: rgb(76, 76, 76);
+    font-weight: 500;
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: "Poppins";
+}
+.container section[aria-label="banner"] div.hero-container div.hero-container-right div.icons{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 250px;
+    /* background-color: darkorchid; */
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.container section[aria-label="banner"] div.hero-container div.hero-container-right div.icons span{
+    height: 45px;
+    width:  45px;
+}
+.container section[aria-label="banner"] div.hero-container div.hero-container-right div.icons span img{
+    height: 33px;
+    width:  33px;
+}
+
+
+
+

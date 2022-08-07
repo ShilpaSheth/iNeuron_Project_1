@@ -4,29 +4,20 @@
     box-sizing: border-box;
 }
 .container{
-    /* background-color: aqua; */
-    margin: 70px 100px 0;
+    margin: 30px 100px 0;
 }
 /* NAVBAR SECTION */
 .container section[aria-label="navbar"]{
-    /* background-color: deeppink; */
-    margin-bottom: 72px;
-   
+    margin-bottom: 72px; 
 }
 
 .container section[aria-label="navbar"] nav.navbar-container{
-    /* background-color: pink; */
     display: flex;
     justify-content: space-between;
 }
 
 /* NAVBAR -> NAV-CONTAINER */
 /* DIV CHILD 1 */
-/* .container section[aria-label="navbar"] nav.navbar-container div:nth-child(1){
-    background-color: rgb(120, 120, 202);
-    
-    
-} */
 .container section[aria-label="navbar"] nav.navbar-container div:nth-child(1) img{
     height: 45px;
     width: 130px;
@@ -36,7 +27,6 @@
 /* NAVBAR -> NAV-CONTAINER */
 /* DIV CHILD 2 */
 .container section[aria-label="navbar"] nav.navbar-container div:nth-child(2){
-    /* background-color: rgb(135, 214, 56); */
     width: 600px;
 }
     
@@ -70,7 +60,6 @@
 /* NAVBAR -> NAV-CONTAINER */
 /* DIV CHILD 3 */
 .container section[aria-label="navbar"] nav.navbar-container div.button-group{
-    /* background-color: darkorange; */
     display: flex;
     justify-content: end;
     width: 200px;
@@ -88,7 +77,6 @@
 /* NAVBAR -> NAV-CONTAINER */
 /* DIV CHILD 4 */
 .container section[aria-label="navbar"] nav.navbar-container div:last-child{
-    /* background-color: rgb(223, 78, 25); */
     margin-top: 2.5px;
     
 }
@@ -169,7 +157,6 @@
 
 /* RIGHT */
 .container section[aria-label="banner"] div.hero-container div.hero-container-right{
- /* background-color: crimson; */
  position: absolute;
  height: 500px;
  width: 800px; 
@@ -183,7 +170,6 @@
 }
 
 .container section[aria-label="banner"] div.hero-container div.hero-container-right p.hero-description{
-    /* background-color: aquamarine; */
     margin-top: 55px;
     height: 150px;
     width: 73%;
@@ -195,7 +181,6 @@
 }
 
 .container section[aria-label="banner"] div.hero-container div.hero-container-right div:nth-child(3){
-    /* background-color: rgb(186, 149, 222); */
     height: 100px;
     width: 400px;
     margin-left: 200px;
@@ -229,9 +214,8 @@
 body > div.container > section:nth-child(2) > div > div.hero-container-right > div:nth-child(4){
     height: 100px;
     width: 350px;
-    /* background-color: antiquewhite; */
     margin-left: 200px;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 body > div.container > section:nth-child(2) > div > div.hero-container-right > div:nth-child(4) > h4{
     width: 180px;
@@ -249,7 +233,6 @@ body > div.container > section:nth-child(2) > div > div.hero-container-right > d
     justify-content: space-around;
     height: 50px;
     width: 250px;
-    /* background-color: darkorchid; */
     margin-left: 65px;
     margin-top: 20px;
 }
